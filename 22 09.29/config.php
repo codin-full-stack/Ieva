@@ -14,7 +14,7 @@ $db = "ievakle";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password, $db);
-
+echo "sfdg";
 var_dump ($con);
 
 // Check connection
