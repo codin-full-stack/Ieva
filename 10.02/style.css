@@ -1,0 +1,110 @@
+body {
+	background-color: #4AA272;
+	padding: 0px;
+	margin: 0px;
+	/* font-family: sans-serif; */
+	font-family: Charmonman;
+}
+.login-registration-wrapper {
+	padding: 0px;
+	margin: 150px auto 0px;
+	width: 336px;
+	height: 393px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: aqua;
+
+}
+.tabs-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 50px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(255, 0, 13);
+
+}
+.tabs-wrapper a {
+	flex-grow: 1;
+	text-align: center;
+	text-decoration: none; 
+	background-color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	color: #3d3a3a;
+	padding: 18px 0px 0px 0px;
+	
+}
+.form-wrapper {
+	/* email/password */
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+	padding: 58px 0px 0px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: violet;
+}
+.form-wrapper label {
+	/* email/password eilutės */
+	font-size: 10px;
+	margin: 0px 40px 3px;
+	color: #3d3a3a;
+}
+.form-wrapper input {
+	font-size: 10px;
+	color: #B1B1B1;
+  margin: 0px 25px 20px 25px;
+  padding: 10px 0px 15px 15px;
+	border:none;
+	border-bottom: 1px solid #F5F5F5;
+}
+.signin-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+.signin-wrapper a {
+	/* forgot password */
+	font-size: 12px;
+	color: #9ACECA;
+	text-decoration: none;
+	margin: 10px 0px 0px 40px;
+	padding-bottom: 40px;
+}
+.signin-wrapper a:hover {
+	text-decoration:underline;
+}
+button {
+	background-color: #4AA272;
+	cursor: pointer;
+	border:none; 
+	width: 108px;
+	height: 41px;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	margin-right: 25px;
+}
+button:hover {
+opacity: 0.8;
+}
+a.disabled {
+	background-color: #E1E1E1;
+	color: #ffffff;
+}
+
+.sign in with Facebook_sign in with google+{
+	padding: 0px;
+	margin: 150px auto 0px;
+	width: 336px;
+	height: 393px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: aqua;
+}
+
+
+
