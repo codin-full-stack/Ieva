@@ -1,0 +1,38 @@
+body{
+    background: #4AA272
+}
+
+.baltas_pagrindas{
+  background-color: #ffffff;
+  width:333px;
+  height: 300px;
+  margin-top:100px;
+  margin: 0px auto;
+}
+
+.tab{
+  background-color: #ff0000;
+  display: flex;
+  justify-content: space-between;
+   margin: 0px auto;
+}
+
+
+/* .button{
+  height: 55px;
+  flex-grow: 1;
+  border:none;
+  cursor:pointer;
+  background-color:#191cdf; */
+
+}
+
+.iemail_password_full{
+  height: 275px;
+
+
+}
+  
+
+
+}
